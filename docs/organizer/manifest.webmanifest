@@ -1,0 +1,19 @@
+{
+  "name": "File Bash",
+  "short_name": "File Bash",
+  "description": "Organize real folders locally, with no file uploads.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f0e8",
+  "theme_color": "#172019",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
