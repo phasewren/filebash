@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#172019" />
+  <meta name="description" content="Download File Bash for macOS or Windows. Organize folders privately, right on your computer." />
+  <title>Download File Bash</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./installer.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="File Bash downloads">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>FILE BASH</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#install">Install</a>
+        <a href="./organizer/">Try in browser</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">THE DESKTOP ORGANIZER</p>
+          <h1 id="hero-title">A home for every file.</h1>
+          <p class="lede">Connect a folder, review the plan, and put everything in place. File Bash runs on your computer—your files never get uploaded.</p>
+          <div class="trust-line" aria-label="Product details">
+            <span><i></i> Runs locally</span>
+            <span>No account</span>
+            <span>No subscription</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="incoming-card"><b>MESSY FILES</b><span>report-final.docx</span><span>IMG_2048.png</span><span>tax-receipt.pdf</span></div>
+          <div class="route">↘</div>
+          <div class="folder-stack"><i>WORK</i><i>PHOTOS</i><i>FINANCE</i></div>
+        </div>
+      </section>
+
+      <section id="install" class="downloads" aria-labelledby="download-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">VERSION 1.0.0 · EARLY ACCESS</p>
+            <h2 id="download-title">Choose your computer.</h2>
+          </div>
+          <p>One download. No sign-in after installation.</p>
+        </div>
+
+        <div class="download-grid">
+          <article class="download-card" data-platform="mac">
+            <div class="card-top">
+              <span class="os-icon apple" aria-hidden="true">●</span>
+              <span class="recommendation">RECOMMENDED FOR YOU</span>
+            </div>
+            <p class="card-label">FOR MAC</p>
+            <h3>File Bash for macOS</h3>
+            <p class="card-copy">A universal build for Apple Silicon and Intel Macs.</p>
+            <dl><div><dt>Format</dt><dd>DMG</dd></div><div><dt>Size</dt><dd>218 MB</dd></div></dl>
+            <a class="download-btn" href="https://github.com/phasewren/filebash/releases/download/v1.0.0/File-Bash-1.0.0-universal.dmg">Download for Mac <span>↓</span></a>
+            <p class="fine-print">macOS 13 or later · Unsigned early-access build</p>
+          </article>
+
+          <article class="download-card orange" data-platform="windows">
+            <div class="card-top">
+              <span class="os-icon windows" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+              <span class="recommendation">RECOMMENDED FOR YOU</span>
+            </div>
+            <p class="card-label">FOR WINDOWS</p>
+            <h3>File Bash for Windows</h3>
+            <p class="card-copy">A guided installer for 64-bit Windows computers.</p>
+            <dl><div><dt>Format</dt><dd>EXE</dd></div><div><dt>Size</dt><dd>115 MB</dd></div></dl>
+            <a class="download-btn dark" href="https://github.com/phasewren/filebash/releases/download/v1.0.0/File-Bash-Setup-1.0.0-x64.exe">Download for Windows <span>↓</span></a>
+            <p class="fine-print">Windows 10 or later · Unsigned early-access build</p>
+          </article>
+        </div>
+
+        <p id="downloadStatus" class="download-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="instructions" aria-labelledby="instructions-title">
+        <div class="instruction-intro">
+          <p class="eyebrow">QUICK START</p>
+          <h2 id="instructions-title">From download to tidy in three steps.</h2>
+        </div>
+        <ol>
+          <li><span>01</span><div><h3>Install it</h3><p>Open the downloaded installer and move through the setup prompts.</p></div></li>
+          <li><span>02</span><div><h3>Connect a folder</h3><p>Choose the folder you want cleaned up. File Bash reads it only on your device.</p></div></li>
+          <li><span>03</span><div><h3>Approve the plan</h3><p>Review every suggested folder, then tell File Bash to organize it.</p></div></li>
+        </ol>
+      </section>
+
+      <aside class="beta-note">
+        <div><p class="eyebrow">ABOUT THIS RELEASE</p><h2>Your computer may show a security warning.</h2></div>
+        <p>These first installers are not yet code-signed. Only continue if you downloaded them from this official File Bash page. Signing can be added before a wider public release.</p>
+      </aside>
+    </main>
+
+    <footer>
+      <span>FILE BASH / LOCAL ORGANIZER</span>
+      <a href="./organizer/">Open the browser version →</a>
+      <span>YOUR FILES STAY ON YOUR DEVICE</span>
+    </footer>
+  </div>
+  <script src="./installer.js"></script>
+</body>
+</html>
